@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  #hoverBox {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 10px 0;
+    line-height: 100px;
+    text-align: center;
+  }
+  
+  .gallery img {
+    width: 100px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  #secretBox {
+    background-color: #dd9d1c;
+    padding: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  #feedback {
+    display: block;
+    color: red;
+    margin-top: 5px;
+  }
+  
